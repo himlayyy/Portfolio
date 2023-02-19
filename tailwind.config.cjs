@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        trocchi: ['Trocchi', 'serif'],
+        nunito: ['Nunito', 'sans-serif'],
+        readex: ['Readex Pro', 'sans-serif'],
+        arial : ["Arial"],
+
       }
     },
   },

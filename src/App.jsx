@@ -1,35 +1,28 @@
-import {useState} from "React";
+import {useState} from "react";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
-import PortfolioItem from "./components/PortfolioItem";
-import {projects} from "./data"
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+
+import {projects} from "./data";
 
 import './App.css'
 
-function App() {
-  const [item, setItem] = useState(projects[0]);
 
-  const clicked = (index) => {
-    setItem({})
-  }
+function App() {
+  
 
   return (
-    <div className="App bg-black ">
+    <div className="App mx-5">
       <Header />
-      <div className="flex justify-between">
-        <div className="max-w-5xl flex flex-col h-screen justify-even flex-shrink justify-center items-center content-between text-slate-500">
-          <Hero />
-          <ul className="flex flex-col gap-6">
-              {projects.map((project, index) => {
-                return <div key={index} onClick={() => setItem(projects[index])}>{project.title}</div>
-              })}
-          </ul>
-        </div>
-        <div className="text-3xl text-red-500">
-          <PortfolioItem project={item}/>
-        </div>
+      <div className="flex flex-col m-0 justify-center content-center max-w-5xl m-auto">
+        <Hero />
+        <Portfolio />
+        <Experience />
+        <Contact />
+        
       </div>
     </div>
   )
