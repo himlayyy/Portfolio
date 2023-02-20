@@ -1,4 +1,4 @@
-import {headerItems} from "../data";
+import {headerItems, resumeLink} from "../data";
 import { v4 as uuidv4 } from 'uuid';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import PortfolioItem from "./PortfolioItemList";
@@ -21,7 +21,7 @@ function Header(){
 					})}
 					</div>
 					<CallToAction classes={"px-2 py-1 text-xs text-slate-50 rounded shadow-md  border border-pink-500 hover:shadow-lg hover:bg-pink-600 focus:shadow-lg  active:shadow-lg transition duration-150 ease-in-out"}> 
-						{<a href={"https://drive.google.com/file/d/1ccO9fvAdxJsMOFQcdKoruxB3Hqh_CdZb/view?usp=share_link"}  target="_blank" rel="noopener noreferrer">Resume</a>}
+						{<a href={resumeLink}  target="_blank" rel="noopener noreferrer">Resume</a>}
 					</CallToAction>
 			</header>
 	)

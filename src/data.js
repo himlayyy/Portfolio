@@ -21,6 +21,7 @@ export const contact = [
 		"text": "Email"},
 	];
 
+export const resumeLink = "https://drive.google.com/file/d/1ccO9fvAdxJsMOFQcdKoruxB3Hqh_CdZb/view?usp=share_link";
 export const headerItems = 
 	[
 		"Portfolio",
