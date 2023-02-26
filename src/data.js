@@ -1,6 +1,6 @@
 export const hero = {
 	heading: "Web developer bringing ideas to life with code",
-	subheading: "I'm Alesandra Lelis, a web developer with 1.5 years of experience in developing awesome experiences for the web. My expertise is in Shopify development where I made high conversion store sections. Apart from that, I'm proficient in Front end development"
+	subheading: "I'm Alesandra Lelis, a Software Engineer with 1.5 years of experience in Front End development creating awesome experiences for the web. My expertise is in Shopify development where I made high conversion store sections. Apart from that, I also worked as a content writer for social media and long form content for content marketing"
 
 }
 
@@ -21,7 +21,7 @@ export const contact = [
 		"text": "Email"},
 	];
 
-export const resumeLink = "https://drive.google.com/file/d/1ccO9fvAdxJsMOFQcdKoruxB3Hqh_CdZb/view?usp=share_link";
+export const resumeLink = "https://drive.google.com/file/d/1cPZn6MFlYGJ5PnXTk7F2wUr6Jzl8Ta49/view?usp=share_link";
 export const headerItems = 
 	[
 		"Portfolio",
@@ -35,7 +35,7 @@ export const projects = [
 			imgUrl: ["https://i.postimg.cc/KvZPpD9Z/Screenshot-2023-02-19-at-23-43-18-Vacation-Homes-Condo-Rentals.png","https://i.postimg.cc/0jCp2zNR/Screenshot-2023-02-19-at-23-44-36-Vacation-Homes-Condo-Rentals.png", "https://i.postimg.cc/1XSGQGsr/Screenshot-2023-02-19-at-23-44-57-NEW-29th-Floor-Tower-5-Pioneer-Woodlands-No-WIFI.png","https://i.postimg.cc/hGH8CFYw/Screenshot-2023-02-19-at-23-46-00-NEW-29th-Floor-Tower-5-Pioneer-Woodlands-No-WIFI.png"],
 			stack: ["React","Css3","Firebase"],
 			link: "https://airbnb-clone-4289d.web.app/",
-			details: `Mao ni details <br> Dapat next line na ni` 
+			details: `A working clone of Airbnb with 3 major functionalities: stay listing, search, & stay booking.` 
 		},
 		{
 			title: "Developer Portfolio",
@@ -44,7 +44,7 @@ export const projects = [
 					"https://i.postimg.cc/2jM7sLcb/Screenshot-2023-02-19-at-17-14-51-Vite-React.png"],
 			stack: ["React", "Tailwind", "Vite"],
 			link: "https://airbnb-clone-4289d.web.app/",
-			details: "Details 2",
+			details: "My portfolio website made with Tailwind and React",
 		},
 		{
 			title: "Rangsee By MJ",
@@ -56,7 +56,7 @@ export const projects = [
 					],
 			stack : ["Shopify"],
 			link: "rangseebymj.com",
-			details: "Details 3"
+			details: "Work I did in my past position. I made the custom sections and most of the website copy, however the copy in the screenshot was edited by owner. After my customizations were applied, click through rates and checkouts improved astronomically. As the shop owners had little marketing going on, it's not a big of a jump to say these modifications were the sole reason for improved site metrics"
 		}
 	];
 
