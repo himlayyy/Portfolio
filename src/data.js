@@ -70,7 +70,7 @@ export const experience = [{
 	{
 		jobTitle : "Registration Officer 1",
 		company: "Philippine Statistics Authority",
-		duration: "March 2021 - August 2021",
+		duration: "October 2020 to December 2020",
 		duties: ["Conduct data gathering and data processing for National ID"]
 	},
 	{
@@ -83,7 +83,7 @@ export const experience = [{
 	{
 		jobTitle: "Copywriter",
 		company: "WearBohol",
-		duration: "March 2019 - October 2020",
+		duration: "March 2019 - October 2019",
 		duties: ["Was able to create an increase of 80% Follows and 75% Likes in WearBohol’s page with 2 Facebook posts",
 			"Create copy for tech landing pages"]
 	}
